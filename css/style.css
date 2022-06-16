@@ -262,3 +262,52 @@ a{
   text-align: center;
   font-size: 10px;
 }
+
+@media (max-width: 680px){
+  .nav-suscripcion{
+    background-color: #F0A83E;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+    color: white;
+    padding-bottom: 1rem;
+  }
+
+  .productos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    
+  }
+
+  nav{
+    background-color: #F0A83E;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .img-principal{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .footer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-bottom: 1rem;
+  }
+
+
+}
